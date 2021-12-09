@@ -20,6 +20,8 @@ public class Main {
         // System.out.println("Puzzle13 - " + Puzzle13.solve());
         // System.out.println("Puzzle14 - " + Puzzle14.solve());
         // System.out.println("Puzzle15 - " + Puzzle15.solve());
-        System.out.println("Puzzle16 - " + Puzzle16.solve());
+        // System.out.println("Puzzle16 - " + Puzzle16.solve());
+        // System.out.println("Puzzle17 - " + Puzzle17.solve());
+        System.out.println("Puzzle18 - " + Puzzle18.solve());
     }
 }
