@@ -26,6 +26,8 @@ public class Main {
         // System.out.println("Puzzle19 - " + Puzzle19.solve());
         // System.out.println("Puzzle20 - " + Puzzle20.solve());
         // System.out.println("Puzzle21 - " + Puzzle21.solve());
-        System.out.println("Puzzle22 - " + Puzzle22.solve());
+        // System.out.println("Puzzle22 - " + Puzzle22.solve());
+        // System.out.println("Puzzle23 - " + Puzzle23.solve());
+        System.out.println("Puzzle24 - " + Puzzle24.solve());
     }
 }
