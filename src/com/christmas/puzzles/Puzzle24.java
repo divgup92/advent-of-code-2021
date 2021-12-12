@@ -22,19 +22,11 @@ public class Puzzle24 {
         for(int i=0;i<splitData.length;i++) {
             String[] node = splitData[i].split("-");
             List<String> val1;
-            if(adjList.containsKey(node[0])) {
-                val1 = adjList.get(node[0]);
-            } else {
-                val1 = new ArrayList<>();
-            }
+            val1 = adjList.containsKey(node[0]) ? adjList.get(node[0]) : new ArrayList<>();
             val1.add(node[1]);
             adjList.put(node[0], val1);
 
-            if(adjList.containsKey(node[1])) {
-                val1 = adjList.get(node[1]);
-            } else {
-                val1 = new ArrayList<>();
-            }
+            val1 = adjList.containsKey(node[1]) ? adjList.get(node[1]) : new ArrayList<>();
             val1.add(node[0]);
             adjList.put(node[1], val1);
 
