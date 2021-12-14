@@ -15,16 +15,16 @@ public class Puzzle28 {
         String start = splitData[0].charAt(0)+"";
         String end = splitData[0].charAt(splitData[0].length() - 1)+"";
         Map<String, Long> input = createMapFromString(splitData[0]);
-        Map<String, Character> map = new HashMap<>();
+        Map<String, Character> transitions = new HashMap<>();
         Map<String, Long> charMap = new HashMap<>();
 
         for (int i = 2; i < splitData.length; i++) {
             String[] pair = splitData[i].split(" -> ");
-            map.put(pair[0], pair[1].charAt(0));
+            transitions.put(pair[0], pair[1].charAt(0));
         }
 
         for (int i = 0; i < ROUNDS; i++) {
-            input = applyTransitions(input, map);
+            input = applyTransitions(input, transitions);
         }
 
         for (String pair : input.keySet()) {

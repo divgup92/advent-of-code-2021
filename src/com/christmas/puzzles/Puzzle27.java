@@ -13,16 +13,16 @@ public class Puzzle27 {
     public static int solve() {
         String[] splitData = FileUtils.readFileToStringArray("src/input/day14.txt");
         String input = splitData[0];
-        Map<String, Character> map = new HashMap<>();
+        Map<String, Character> transitions = new HashMap<>();
         Map<Character, Integer> charMap = new HashMap<>();
 
         for (int i = 2; i < splitData.length; i++) {
             String[] pair = splitData[i].split(" -> ");
-            map.put(pair[0], pair[1].charAt(0));
+            transitions.put(pair[0], pair[1].charAt(0));
         }
 
         for (int i = 0; i < ROUNDS; i++) {
-            input = applyTransitions(input, map);
+            input = applyTransitions(input, transitions);
         }
 
         for (int i = 0; i < input.length(); i++) {
