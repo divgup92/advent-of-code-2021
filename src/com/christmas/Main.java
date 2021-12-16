@@ -34,6 +34,8 @@ public class Main {
         // System.out.println("Puzzle27 - " + Puzzle27.solve());
         // System.out.println("Puzzle28 - " + Puzzle28.solve());
         // System.out.println("Puzzle29 - " + Puzzle29.solve());
-        System.out.println("Puzzle30 - " + Puzzle30.solve());
+        // System.out.println("Puzzle30 - " + Puzzle30.solve());
+        System.out.println("Puzzle31 - " + Puzzle31.solve());
+        System.out.println("Puzzle32 - " + Puzzle32.solve());
     }
 }
