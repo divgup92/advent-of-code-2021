@@ -38,6 +38,8 @@ public class Main {
         // System.out.println("Puzzle31 - " + Puzzle31.solve());
         // System.out.println("Puzzle32 - " + Puzzle32.solve());
         // System.out.println("Puzzle33 - " + Puzzle33.solve());
-        System.out.println("Puzzle34 - " + Puzzle34.solve());
+        // System.out.println("Puzzle34 - " + Puzzle34.solve());
+        // System.out.println("Puzzle35 - " + Puzzle35.solve());
+        System.out.println("Puzzle36 - " + Puzzle36.solve());
     }
 }
